@@ -1,0 +1,79 @@
+.home {
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-color:rgb(42, 42, 42);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home h1{
+    font-size:110px;
+  }
+  
+  .introview {
+    width:60%;
+    text-align:left;
+    margin-bottom:10%;
+  }
+
+  .my-image {
+    width:40%;
+    height:40%;
+    float:left;
+  }
+  
+  .buttons {
+    position:absolute;
+    bottom:5vh;
+  }
+  
+  .icons a{
+    font-size:40px;
+    position:absolute;
+    top:10px;
+    right:10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.corner-line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 8vh solid transparent;
+    border-left: 8vh solid rgb(255, 0, 0);
+}
+
+.education {
+    display:flex;
+    flex-direction:row;
+    text-align:left;
+    margin-bottom:10%;
+}
+
+.education h3 {
+    text-align:center;
+}
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+}
