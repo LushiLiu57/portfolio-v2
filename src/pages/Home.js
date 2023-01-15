@@ -32,14 +32,14 @@ function Home() {
             {currentView === 'education' && <Education/>}
             {currentView === 'skills' && <Skills/>} */}
             <div className='buttons'>
-                <Button variant='outline-success' style={{margin:'20px'}} onClick={() => setCurrentView("intro")}>About Me</Button>
-                <Button variant='outline-primary' style={{margin:'20px'}} onClick={() => setCurrentView("education")}>Education</Button>
-                <Button variant='outline-danger' style={{ margin:'20px'}} onClick={() => setCurrentView("skills")}>Skills</Button>
+                <Button variant='outline-success' style={{margin:'20px'}} onClick={() => setCurrentView("intro")}><b>About Me</b></Button>
+                <Button variant='outline-primary' style={{margin:'20px'}} onClick={() => setCurrentView("education")}><b>Education</b></Button>
+                <Button variant='outline-danger' style={{ margin:'20px'}} onClick={() => setCurrentView("skills")}><b>Skills</b></Button>
             </div>
             <div className='icons'>
-                <a href='https://www.linkedin.com/in/lushiliu/' target='_blank' style={{color:'green'}}><AiFillLinkedin /></a>
-                <a href='https://github.com/LushiLiu57' target='_blank' style={{top:'60px'}}><AiFillGithub /></a>
-                <a style={{color:'red', top:'110px'}}><AiFillFileText/></a>
+                <a href='https://www.linkedin.com/in/lushiliu/' target='_blank' style={{color:'mediumseagreen'}}><AiFillLinkedin /></a>
+                <a href='https://github.com/LushiLiu57' target='_blank' style={{color:'dodgerblue', top:'60px'}}><AiFillGithub /></a>
+                <a style={{color:'firebrick', top:'110px'}}><AiFillFileText/></a>
             </div>
             <div class="corner-line"></div>
         </div>

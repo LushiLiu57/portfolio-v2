@@ -56,8 +56,43 @@
     margin-bottom:10%;
 }
 
-.education h3 {
-    text-align:center;
+.school-info {
+    width:25%;
+    margin-left:5%;
+}
+
+.school-info h2 {
+    font-size:30px;
+    margin-bottom:15%;
+}
+
+.courses {
+    width:25%;
+    margin-left:5%;
+    /* border:5px solid dodgerblue; */
+    border:6px solid firebrick;
+    padding:10px;
+}
+
+.course-list {
+    list-style:none;
+}
+
+.skills {
+    display:flex;
+    flex-direction:row;
+    text-align:left;
+    margin-bottom:10%;
+}
+
+.list {
+    margin-left:5%;
+    list-style:None;
+}
+
+.skill-type {
+    width:90%;
+    margin-bottom:10%;
 }
 
 .fade-enter {

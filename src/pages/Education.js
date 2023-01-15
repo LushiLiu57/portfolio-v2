@@ -4,8 +4,26 @@ import '../styles/Home.css'
 function Education() {
   return (
     <div className='education'>
-        <h1><b style={{color:'green'}}>Education</b></h1>
-        <h3>I am a <b style={{color:'blue'}}>Web Developer</b>, thriving to learn and grow. I am always up for a challenge and open to learn and grow my skills!</h3>
+        <h1><b style={{color:'dodgerblue'}}>Education</b></h1>
+        <div className='school-info'>
+            <h2>(Honours) Statistics Specialist, Statistical Machine Learning and Data Science Stream (B.Sc)</h2>
+            <h2 style={{color:'mediumseagreen'}}><b>University of Toronto</b></h2>
+            <h2>2015-2021</h2>
+        </div>
+        <div className='courses'>
+        <h4>Relevant Courses (Course Code)</h4>
+        <br></br>
+                <ol className='course-list'>
+                    <li className='course'><h5>Databases and Web Applications <b class='bold'>(CSCB20)</b></h5></li>
+                    <li className='course'><h5>Theory of Computing <b class='bold'>(CSCB36)</b></h5></li>
+                    <li className='course'><h5>Design and Analysis of Data Structures <b class='bold'>(CSCB63)</b></h5></li>
+                    <li className='course'><h5>Software Design <b class='bold'>(CSCB07)</b></h5></li>
+                    <li className='course'><h5>Numerical Algorithms for Computational Mathematics <b class='bold'>(CSCC37)</b></h5></li>
+                    <li className='course'><h5>Machine Learning and Data Mining <b class='bold'>(CSCC11)</b></h5></li>
+                    <li className='course'><h5>Algorithm Design and Analysis <b class='bold'>(CSCC73)</b></h5></li>
+                </ol>
+        </div>
+        
     </div>
   );
 }
